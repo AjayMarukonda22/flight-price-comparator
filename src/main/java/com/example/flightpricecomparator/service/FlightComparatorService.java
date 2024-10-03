@@ -54,8 +54,7 @@ public class FlightComparatorService {
 
     private static WebDriver initializeDriver() {
         // Set the path to your local ChromeDriver executable
-        System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chromedriver.exe");  // Windows Example
-        // For Linux/Mac, use the correct path: "/path/to/chromedriver"
+        System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chromedriver.exe");
 
         // Set ChromeOptions for headless mode (optional)
         ChromeOptions options = new ChromeOptions();
